@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Register</title>
+        <style>
+            label {font-size: large;font-weight: bold}
+            #submitcss {width:20em;height:2em}
+        </style>
+    </head>
+    <body style="font-family:'Rockwell'">
+        <h1>Register form</h1>
+        <br>
+        <label>Exam Course</label><br>
+        <select id="crse">
+            <option value="ml">Machine Learning</option>
+            <option value="dbms">DBMS</option>
+            <option value="ds">Data Structures</option>
+            <option value="ai">Artificial Intelligence</option>
+        </select>
+        <br><br><br>
+        <label>Select Level:</label>
+        <br>
+        <input type="radio" value="bsc" name="lvl">Basic
+        <br>
+        <input type="radio" value="adv" name="lvl">Advanced
+        <br><br><br>
+        <label >First name:</label>
+        <input type="text" id="fname"/>
+        <br><br><br>
+        <label >Last name:</label>
+        <input type="text" id="lname"/>
+        <br><br><br>
+        <label >Student Mobile No.</label>
+        <input type="tel" id="mn"/>
+        <br><br><br>
+        <label >Student Address</label>
+        <textarea rows="4" cols="50" id="add"></textarea>
+        <br><br><br>
+        <label >Registration Number:</label>
+        <input type="text" id="reg"/>
+        <br><br><br>
+        <label >Exam Date Slot</label>
+        <select id="dt">
+            <option value="date1">28 November 2019</option>
+            <option value="date2">29 November 2019</option>
+        </select>
+        <br><br><br>
+        <label >Time Slot</label>
+        <br>
+        <input type="radio" value="fn" name="et" id="time">Forenoon
+        <br>
+        <input type="radio" value="an" name="et" id="time">Afternoon
+        <br><br>
+        <label>Exam Center Slot</label>
+        <br><br>
+        <label>Choice 1(Select the City Name):</label>
+        <br>
+        <select id="ch1">
+            <option value="hyd">Hyderabad</option>
+            <option value="wrngl">Warangal</option>
+            <option value="krmngr">Karimnagar</option>
+        </select>
+        <br><br><br>
+        <label>Choice 2(select another city):</label>
+        <br>
+        <select id="ch2">
+            <option value="hyd">Hyderabad</option>
+            <option value="wrngl">Warangal</option>
+        </select>
+        <br><br><br>
+        <input type="submit" value="Register Now" id="submitcss"/>
+    </body>
+</html>
